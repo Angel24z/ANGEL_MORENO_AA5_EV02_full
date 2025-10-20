@@ -1,0 +1,16 @@
+API AUTENTICACIÓN – MULTISORE
+Base URL: http://localhost:4000/api/auth
+
+POST /register
+Descripción: Registra un nuevo usuario.
+Body (JSON): { "username": "usuario", "password": "clave" }
+Respuesta esperada: 201 { "message": "Registro exitoso", "userId": "<id>" }
+
+POST /login
+Descripción: Inicia sesión y devuelve un token JWT.
+Body (JSON): { "username": "usuario", "password": "clave" }
+Respuesta esperada: 200 { "message": "Autenticación satisfactoria", "token": "<jwt>" }
+
+GET /
+Descripción: Ruta de estado del servicio.
+Respuesta esperada: 200 { "status": "ok", "message": "Servicio de autenticación MULTISORE activo" }

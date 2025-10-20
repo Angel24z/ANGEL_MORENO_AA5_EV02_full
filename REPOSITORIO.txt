@@ -1,0 +1,3 @@
+https://github.com/tu-usuario/multisore-auth-service
+
+(Reemplaza con el enlace final del repositorio remoto)
